@@ -23,4 +23,5 @@ def process_line(line, hist):
         
         hist[word] = hist.get(word, 0) + 1
         
-hist = process_file("emma.txt")
+hist = process_file("d:\\emma.txt")
+print hist
